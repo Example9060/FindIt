@@ -1,0 +1,12 @@
+
+        body { margin: 0; padding: 0; overflow: hidden; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; height: auto; }
+        .sidebar { position: absolute; top: 0; left: -30%; width: 30%; height: 100%; background-color: #f8f9fa; padding: 20px; transition: left 0.3s ease-in-out; }
+        .store-info { margin-bottom: 20px; }
+        .show-sidebar { left: 0; }
+        .sidebar .card {
+            width: auto;
+            height: auto;
+            margin: 5px auto;
+        }
+        .right-sidebar{position: absolute; top: 0; right: -30%; width: 30%; height: 100%; background-color: #f8f9fa; padding: 20px; transition: right 0.3s ease-in-out;}
